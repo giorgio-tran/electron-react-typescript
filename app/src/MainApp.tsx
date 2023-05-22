@@ -1,3 +1,9 @@
-const MainApp = () => <h1 className="main">Hello</h1>
+const MainApp = () => {
+  return (
+    <div>
+      
+    </div>
+  );
+}
 
 export default MainApp;

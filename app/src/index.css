@@ -3,9 +3,6 @@ body {
     Arial, sans-serif;
   margin: auto;
   padding: 2rem;
-}
-
-.main {
-  width: 100%;
-  height: 100vh;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); 
 }
