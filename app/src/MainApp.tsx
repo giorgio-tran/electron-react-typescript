@@ -1,8 +1,16 @@
+import Choice from "./components/Choice";
+import Container from "./components/Container";
+
 const MainApp = () => {
   return (
-    <div>
-      
-    </div>
+    <Container>
+      <div className='title-xl'>Hello</div>
+      <div className="choices-container">
+        <Choice name="rock" />
+        <Choice name="paper" />
+        <Choice name="scissors" />
+      </div>
+    </Container>
   );
 }
 
